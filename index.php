@@ -1,43 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<?php
-include './config/images.php';
+<?php 
+$page_title = 'GAMEONIX ESPORTS & GAMING - Ultimate Gaming Experience';
+include './includes/header.php'; 
 ?>
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GAMEONIX ESPORTS & GAMING - Ultimate Gaming Experience</title>
-  <meta name="description" content="Play the best mobile games including BGMI, VALORANT, FREE FIRE, COD: MOBILE, and PUBG: NEW STATES. Join millions of players today!">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="./assets/style2.css">
-  <link rel="icon" type="image/x-icon" href="<?php echo $imgurl?>/favicon.ico">
-</head>
-
-<body>
-  <!-- Header Section -->
-  <header class="header">
-    <div class="container">
-      <a href="#" class="logo">
-        <img id="main_logo" src="<?php echo $imgurl?>/gameonix_favicon.png" alt="logo" >
-        <!-- <div class="logo-text glowing-text">GAME<span>ONIX</span></div> -->
-      </a>
-      <nav class="nav">
-        <ul class="nav-menu">
-          <li><a href="#home">Home</a></li>
-    <!--  <li><a href="#games">Games</a></li> -->
-          <li><a href="#">SARKAR</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#download">Download</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="./auth/login.php">Login</a></li>
-        </ul>
-        <button class="nav-toggle">
-          <i class="fas fa-bars"></i>
-        </button>
-      </nav>
-    </div>
-  </header>
 
   <!-- Hero Section -->
 <section id="home" class="hero">
@@ -409,64 +373,4 @@ include './config/images.php';
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-about">
-          <a href="#" class="logo">
-            <img id="main_logo" src="<?php echo $imgurl?>/gameonix_favicon.png" alt="logo" >
-            <!-- <div class="logo-text">GAME<span>ONIX</span></div> -->
-          </a>
-          <p>
-            GAMEONIX is India's leading gaming platform with over 3 Lakh+ users. Play
-            games, compete with friends, and win exciting cash prizes in popular titles like BGMI, VALORANT, FREE FIRE,
-            and more.
-          </p>
-          <div class="social-links">
-            <a href="https://www.facebook.com/share/1ASxe94oWo/"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/gameonix.app"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-          </div>
-        </div>
-        <div class="footer-links">
-          <h3>Quick Links</h3>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#games">Games</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#download">Download</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h3>Games</h3>
-          <ul>
-            <li><a href="#">BGMI</a></li>
-            <li><a href="#">VALORANT</a></li>
-            <li><a href="#">FREE FIRE</a></li>
-            <li><a href="#">COD: MOBILE</a></li>
-            <li><a href="#">PUBG: NEW STATE</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h3>Support</h3>
-          <ul>
-            <li><a href="./p/contact.php">Help Center</a></li>
-            <li><a href="./p/terms&conditions.php">Terms of Service</a></li>
-            <li><a href="./p/privacypolicy.php">Privacy Policy</a></li>
-           <!-- <li><a href="#">Responsible Gaming</a></li> -->
-           <li><a href="./p/refund&cancellation.php">Refund and Cancellation</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>© 2025 GAMEONIX. All Rights Reserved.</p>
-      </div>
-    </div>
-  </footer>
-
-    <script src="./assets/script.js"></script>
-</body>
-
-</html>
+<?php include './includes/footer.php'; ?>
